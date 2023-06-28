@@ -19,7 +19,7 @@ To run this app locally:
 
 1. Pull down and/or branch this repository
 2. IN YOUR TERMINAL: Run ```npm install``` to install all dependencies
-3. Run ```npm install console.table``` to install module
+3. Run ```npm install console.table``` and ```npm i inquirer@8.2.4``` to install modules 
 4. log in to mysql using ```mysql -uroot -p```
 5. in mysql, run ```source schema.sql``` and ```source seeds.sql```
 6. Exit mysql and run ```npm start```
@@ -37,7 +37,7 @@ To run this app locally:
 * [console.table](https://www.npmjs.com/package/console.table)
 
 ## Video Demo
-* [DEMO]()
+* [DEMO](https://www.youtube.com/watch?v=oDdjx4IAzOQ)
 
 ## Link
 * Github Link: https://github.com/hkchebli/employee-tracker
