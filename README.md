@@ -3,7 +3,7 @@
  
 ## Table of contents
 * [User Story](#user-story)
-* [Instructions](#instructions)
+* [Instructions to Install](#instructions)
 * [Technologies](#technologies)
 * [Video Demo](#video-demo)
 * [Sources](#sources)
@@ -15,24 +15,29 @@ I want to be able to view and manage the departments, roles, and employees in my
 So that I can organize and plan my business
 
 ## Instructions
+To run this app locally:
+
+1. Pull down and/or branch this repository
+2. IN YOUR TERMINAL: Run ```npm install``` to install all dependencies
+3. Run ```npm install console.table``` to install module
+4. log in to mysql using ```mysql -uroot -p```
+5. in mysql, run ```source schema.sql``` and ```source seeds.sql```
+6. Exit mysql and run ```npm start```
 
 ## Technologies
 * Javascript
-* Node
+* Node.js
 * NPM Inquirer
-* NPM MySQL
 * NPM console.table
 * MySQL
-* MySQL Workbench
-
-## Video Demo
-* [DEMO]()
-
 
 ## Sources
 
 * [MySQL](https://www.npmjs.com/package/mysql)
 * [console.table](https://www.npmjs.com/package/console.table)
+
+## Video Demo
+* [DEMO]()
 
 ## Link
 * Github Link: https://github.com/hkchebli/employee-tracker
